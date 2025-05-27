@@ -7,7 +7,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-app.secret_key = 'xyzsdfg'
+app.secret_key = 'your_secretkey'
   
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
